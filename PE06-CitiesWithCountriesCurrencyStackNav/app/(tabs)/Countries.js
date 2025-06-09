@@ -3,7 +3,6 @@ import { View, Text, Button, FlatList, StyleSheet } from 'react-native';
 const countriesData = [
   { id: '1', name: 'United States', currencies: ['USD'] },
   { id: '2', name: 'Japan', currencies: ['JPY'] },
-  { id: '3', name: 'India', currencies: ['INR', 'USD'] },
 ];
 
 export default function Countries({ navigation }) {
